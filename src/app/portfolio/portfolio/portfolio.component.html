@@ -1,0 +1,9 @@
+<h1>Projects:</h1>
+<div class="portfolio-list">
+    <div class="portfolio-card" *ngFor="let portfolio of portfolios">
+        <img src="{{ portfolio.image }}" alt="{{ portfolio.title }}">
+        <h3>{{ portfolio.title }}</h3>
+        <p>{{ portfolio.description }}</p>
+    </div>
+</div>
+  

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "gdsc-snt": {
+      "hosting": {
+        "gdsc-snt": [
+          "gdsc-snt"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "gdsc-snt"
+  }
+}
